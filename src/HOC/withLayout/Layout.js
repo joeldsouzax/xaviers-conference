@@ -98,9 +98,23 @@ class Layout extends React.Component {
             case (0):
                 this.props.history.push('/');;
                 break;
-
+            case 1:
+                this.props.history.push('/about');;
+                break;
+            case 2:
+                this.props.history.push('/venue');;
+                break;
+            case 3:
+                this.props.history.push('/registration');;
+                break;
             case (4):
                 this.props.history.push('/invitedspeakers');;
+                break;
+            case (5):
+                this.props.history.push('/organisingcommittee');;
+                break;
+            case (6):
+                this.props.history.push('/connect');;
                 break;
             default:
                 console.log("nothing");
@@ -137,7 +151,45 @@ class Layout extends React.Component {
         this.props.history.push('/');
         this.setState({
             value:0
-        })
+        });
+    }
+
+
+    handleAboutNavigation = () => {
+        this.props.history.push("/about");
+        this.setState({
+            value:1
+        });
+
+    }
+
+    handleVenueNavigation = () => {
+        this.props.history.push("/venue");
+        this.setState({
+            value:2
+        });
+
+    }
+
+    handleRegistrationNavigation = () => {
+        this.props.history.push("/registration");
+        this.setState({
+            value:3
+        });
+    }
+
+    hangleOrganisingCommitteeNavigation = () => {
+        this.props.history.push('/organisingcommittee');;
+        this.setState({
+            value:5
+        });
+    }
+
+    handleConnectNavigation = () => {
+        this.props.history.push('/connect');;
+        this.setState({
+            value:6
+        });
     }
 
 
@@ -220,21 +272,21 @@ class Layout extends React.Component {
                             <ListItemText primary="Home" />
                         </ListItem>
                         <Divider/>
-                        <ListItem button>
+                        <ListItem button onClick={this.handleAboutNavigation}>
                             <Avatar>
                                 <ImageIcon/>
                             </Avatar>
                             <ListItemText primary="About" />
                         </ListItem>
                         <Divider/>
-                        <ListItem button>
+                        <ListItem button onClick={this.handleVenueNavigation}>
                             <Avatar>
                                 <WorkIcon/>
                             </Avatar>
                             <ListItemText primary="Venue" />
                         </ListItem>
                         <Divider/>
-                        <ListItem button>
+                        <ListItem button onClick={this.handleRegistrationNavigation}>
                             <Avatar>
                                 <WorkIcon/>
                             </Avatar>
@@ -246,13 +298,13 @@ class Layout extends React.Component {
                             </Avatar>
                             <ListItemText primary="Invited Speakers"/>
                         </ListItem>
-                        <ListItem button>
+                        <ListItem button onClick={this.hangleOrganisingCommitteeNavigation}>
                             <Avatar className={classes.listIcon}>
                                 <WorkIcon/>
                             </Avatar>
                             <ListItemText primary="Organising Committee"/>
                         </ListItem>
-                        <ListItem button>
+                        <ListItem button onClick={this.handleConnectNavigation}>
                             <Avatar>
                                 <ImportExport className={classes.listIcon}/>
                             </Avatar>

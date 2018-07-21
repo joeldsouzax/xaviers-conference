@@ -26,7 +26,7 @@ class XaviersHome extends Component {
 
     state = {
         institutions: [
-            {id:1,type:"xaviers", data:"St. Xavier's College, Mumbai"},
+            {id:1,type:"xaviers", data:"St. Xavier's College, Mumbai, India"},
             {id:2,type:"creighton", data: "Creighton University, Omaha, NE, USA" },
         ],
 

@@ -17,7 +17,7 @@
  */
 
 import React from 'react';
-import {Card,CardMedia,CardContent,IconButton,List,ListItem,ListItemSecondaryAction,ListItemText} from "@material-ui/core";
+import {Card,Typography,CardMedia,CardContent,IconButton,List,ListItem,ListItemSecondaryAction,ListItemText} from "@material-ui/core";
 import {withStyles} from '@material-ui/core/styles';
 import {ChevronRight} from "@material-ui/icons";
 
@@ -41,7 +41,9 @@ const speaker = (props) => {
 
             </CardMedia>
             <CardContent>
-                {props.name}
+                <Typography variant="subheading" gutterBottom>
+                    {props.name}
+                </Typography>
             </CardContent>
             <List>
                 <ListItem button>

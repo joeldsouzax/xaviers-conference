@@ -49,7 +49,7 @@ const logos = (props) => {
             logoComponent = (
                 <Paper className={classes.paper}>
                     <img className={classes.size} src={XaviersLogo} alt={props.data}/>
-                    <Typography variant="body" gutterBottom>
+                    <Typography variant="caption" gutterBottom>
                         {props.data}
                     </Typography>
                 </Paper>
@@ -60,7 +60,7 @@ const logos = (props) => {
             logoComponent = (
                 <Paper className={classes.paper}>
                     <img className={classes.size} src={CreightonLogo} alt={props.data}/>
-                    <Typography variant="body" gutterBottom>
+                    <Typography variant="caption" gutterBottom>
                         {props.data}
                     </Typography>
                 </Paper>

@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228328f6-0789-4902-af1c-8ebd1da91dd4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/invitedSpeakersComponent/InvitedSpeakersContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/SpeakerList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Connect/Connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/OrganisingCommittee/OrganisingCommittee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Registration/Registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Venue/Venue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HOC/withLayout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HOC/withLayout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,48 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InvitedSpeakers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/InvitedSpeakers/InvitedSpeakers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#324#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvitedSpeakersContent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/InvitedSpeakersContent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
-              <folding>
-                <element signature="e#332#358#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeakerList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/SpeakerList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-              <folding>
-                <element signature="e#321#347#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Speaker.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Speaker.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+            <state relative-caret-position="405">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="e#316#342#0" expanded="true" />
               </folding>
@@ -68,12 +40,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="Logos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="418">
+              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#314#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XaviersHome.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+              <folding>
+                <element signature="e#321#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Venue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Venue/Venue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="e#314#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/About/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="e#314#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registration.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Registration/Registration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+              <folding>
+                <element signature="e#321#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrganisingCommittee.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/OrganisingCommittee/OrganisingCommittee.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Connect.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Connect/Connect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+              <folding>
+                <element signature="e#316#354#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/HOC/withLayout/Layout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="306" column="78" selection-start-line="306" selection-start-column="78" selection-end-line="306" selection-end-column="78" />
+              <folding>
+                <element signature="e#311#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,22 +136,10 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="405">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="47" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Layout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HOC/withLayout/Layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-              <folding>
-                <element signature="e#311#350#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,18 +163,24 @@
         <option value="$PROJECT_DIR$/src/HOC/Aux/Aux.js" />
         <option value="$PROJECT_DIR$/src/HOC/withLayout/withLayout.js" />
         <option value="$PROJECT_DIR$/src/HOC/withLayout/layout.js" />
-        <option value="$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js" />
         <option value="$PROJECT_DIR$/src/components/xavierHomeContent/XavierHomeContent.js" />
         <option value="$PROJECT_DIR$/src/containers/xavier-home/XaviersHome.js" />
         <option value="$PROJECT_DIR$/src/components/xavierHomeContent/XaviersWriteup/XaviersWriteUp.js" />
         <option value="$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/LogoList.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/HOC/withLayout/Layout.js" />
         <option value="$PROJECT_DIR$/src/containers/InvitedSpeakers/SpeakerList/SpeakerList.js" />
         <option value="$PROJECT_DIR$/src/containers/InvitedSpeakers/InvitedSpeakers.js" />
         <option value="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/SpeakerList.js" />
         <option value="$PROJECT_DIR$/src/components/invitedSpeakersComponent/InvitedSpeakersContent.js" />
         <option value="$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js" />
+        <option value="$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js" />
+        <option value="$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js" />
+        <option value="$PROJECT_DIR$/src/containers/Venue/Venue.js" />
+        <option value="$PROJECT_DIR$/src/containers/About/About.js" />
+        <option value="$PROJECT_DIR$/src/containers/Registration/Registration.js" />
+        <option value="$PROJECT_DIR$/src/containers/OrganisingCommittee/OrganisingCommittee.js" />
+        <option value="$PROJECT_DIR$/src/containers/Connect/Connect.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/HOC/withLayout/Layout.js" />
       </list>
     </option>
   </component>
@@ -193,24 +241,7 @@
               <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="invitedSpeakersComponent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xaviers-conference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="invitedSpeakersComponent" type="462c0819:PsiDirectoryNode" />
-              <item name="speakerList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xaviers-conference" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="invitedSpeakersComponent" type="462c0819:PsiDirectoryNode" />
-              <item name="speakerList" type="462c0819:PsiDirectoryNode" />
-              <item name="speaker" type="462c0819:PsiDirectoryNode" />
+              <item name="xavierHomeContent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xaviers-conference" type="b2602c69:ProjectViewProjectNode" />
@@ -223,13 +254,20 @@
               <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="InvitedSpeakers" type="462c0819:PsiDirectoryNode" />
+              <item name="Connect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xaviers-conference" type="b2602c69:ProjectViewProjectNode" />
               <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="HOC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xaviers-conference" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xaviers-conference" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="HOC" type="462c0819:PsiDirectoryNode" />
+              <item name="withLayout" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -272,12 +310,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532183990590</updated>
-      <workItem from="1532183993366" duration="12481000" />
+      <workItem from="1532183993366" duration="14081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12481000" />
+    <option name="totallyTimeSpent" value="14081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -288,7 +326,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.68012923" weight="0.32551318" />
       <window_info id="npm" order="3" sideWeight="0.5016234" side_tool="true" weight="0.21991481" />
-      <window_info anchor="right" id="Terminal" order="4" sideWeight="0.7649435" side_tool="true" visible="true" weight="0.3457189" />
+      <window_info anchor="right" id="Terminal" order="4" sideWeight="0.7649435" side_tool="true" weight="0.7229402" />
       <window_info anchor="bottom" id="RNConsole" order="10" sideWeight="0.49946752" weight="0.3299389" />
       <window_info anchor="right" id="JSON Viewer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837664" visible="true" weight="0.27705976" />
@@ -332,16 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#314#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/xavierHomeContent/XaviersWriteup/XaviersWriteUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -368,16 +396,6 @@
           <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
             <element signature="e#318#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#321#360#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -420,46 +438,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HOC/withLayout/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-          <folding>
-            <element signature="e#311#350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/InvitedSpeakers/SpeakerList/SpeakerList.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/InvitedSpeakers/InvitedSpeakers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#324#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/SpeakerList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="e#321#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -474,12 +462,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/SpeakerList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding>
+            <element signature="e#321#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/invitedSpeakersComponent/speakerList/speaker/Speaker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="49" column="50" selection-start-line="49" selection-start-column="50" selection-end-line="49" selection-end-column="50" />
+        <state relative-caret-position="405">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="e#316#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/xavierHomeContent/LogoList/Logos/Logos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+          <folding>
+            <element signature="e#314#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/XavierHome/XaviersHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="e#321#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Venue/Venue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="e#314#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/About/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#314#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Registration/Registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding>
+            <element signature="e#321#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/OrganisingCommittee/OrganisingCommittee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Connect/Connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="e#316#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HOC/withLayout/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="306" column="78" selection-start-line="306" selection-start-column="78" selection-end-line="306" selection-end-column="78" />
+          <folding>
+            <element signature="e#311#350#0" expanded="true" />
           </folding>
         </state>
       </provider>
