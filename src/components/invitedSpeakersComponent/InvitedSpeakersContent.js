@@ -27,7 +27,7 @@ const styles = theme => ({
 
     root: {
         textAlign: "center",
-        margin: 20,
+        marginBottom: 50,
     },
 
     speakerSection: {

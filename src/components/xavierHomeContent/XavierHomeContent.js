@@ -23,11 +23,13 @@ import {Typography} from "@material-ui/core";
 import {withStyles} from '@material-ui/core/styles';
 import LogoList from "./LogoList/LogoList";
 import XaviersWriteUp from "./XaviersWriteup/XaviersWriteUp";
+import XaviersSwipe from "./XaviersSwipe/XaviersSwipe";
 
 const styles = theme => ({
     root: {
         textAlign: "center",
-        marginTop: 20,
+        marginTop: 1,
+        marginBottom: 50,
     }
 
 });
@@ -40,6 +42,7 @@ const xavierHomeContent = (props) => {
 
     return (
         <div className={classes.root}>
+            <XaviersSwipe/>
             <LogoList institutions={props.institutions}/>
             <XaviersWriteUp writeup={props.writeup}/>
         </div>

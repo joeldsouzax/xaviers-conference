@@ -18,7 +18,6 @@
 import React, {Component} from 'react';
 import {withStyles,createMuiTheme,MuiThemeProvider} from '@material-ui/core/styles';
 import {AppBar,Toolbar,Typography,Button,IconButton,Drawer,List,ListItem,ListItemText,Divider,Avatar,Grid,Hidden,Tab,Tabs,Paper} from '@material-ui/core';
-import EditIcon from '@material-ui/icons/Edit';
 import MenuIcon from '@material-ui/icons/Menu';
 import PowerSettingNew from '@material-ui/icons/PowerSettingsNew';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
@@ -27,10 +26,10 @@ import {withRouter} from 'react-router-dom';
 
 
 //nav images
-import ImageIcon from '@material-ui/icons/Image';
 import WorkIcon from '@material-ui/icons/Work';
 import {ImportExport} from "@material-ui/icons";
 import Home from "@material-ui/icons/Home";
+import {AccountBox,Directions,Create,SupervisorAccount} from "@material-ui/icons";
 
 
 const drawerWidth = 240;
@@ -40,15 +39,15 @@ const xaviersTheme = createMuiTheme({
 
     palette: {
         primary: {
-            main: "#4527a0",
-            light: "#7953d2",
-            dark: "#000070"
+            main: "#212121",
+            light: "#484848",
+            dark: "#000000"
         },
 
         secondary: {
-            main: "#1e88e5",
-            light: "#6ab7ff",
-            dark: "#005cb2"
+            main: "#ffebee",
+            light: "#ffffff",
+            dark: "#ccb9bc"
         }
     }
 });
@@ -80,7 +79,16 @@ const style = theme => ({
 
 
     listIcon: {
-        color: theme.palette.primary.main,
+        color: "#212121",
+    },
+
+
+    footer: {
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: "#484848",
+        padding: 50,
     }
 });
 
@@ -208,9 +216,11 @@ class Layout extends React.Component {
 
                         <Grid container justify="space-between" alignItems="center">
                             <Grid item>
-                                <IconButton className={classes.menuButton} onClick={this.drawerHandler}>
-                                    <MenuIcon/>
-                                </IconButton>
+                                <Hidden smUp>
+                                    <IconButton className={classes.menuButton} onClick={this.drawerHandler}>
+                                        <MenuIcon/>
+                                    </IconButton>
+                                </Hidden>
                             </Grid>
                             <Grid item>
                                 <Typography variant="title" color="inherit">
@@ -236,11 +246,11 @@ class Layout extends React.Component {
                             textColor="primary"
                             centered
                         >
-                            <Tab label="Home"  value={0}/>
+                            <Tab label="Home" />
                             <Tab label="About" />
                             <Tab label="Venue" />
                             <Tab label="Registration" />
-                            <Tab label="Invited Speakers" value={4} />
+                            <Tab label="Invited Speakers" />
                             <Tab label="Organising Committee" />
                             <Tab label="Connect" />
                         </Tabs>
@@ -274,27 +284,27 @@ class Layout extends React.Component {
                         <Divider/>
                         <ListItem button onClick={this.handleAboutNavigation}>
                             <Avatar>
-                                <ImageIcon/>
+                                <AccountBox className={classes.listIcon}/>
                             </Avatar>
                             <ListItemText primary="About" />
                         </ListItem>
                         <Divider/>
                         <ListItem button onClick={this.handleVenueNavigation}>
                             <Avatar>
-                                <WorkIcon/>
+                                <Directions className={classes.listIcon}/>
                             </Avatar>
                             <ListItemText primary="Venue" />
                         </ListItem>
                         <Divider/>
                         <ListItem button onClick={this.handleRegistrationNavigation}>
                             <Avatar>
-                                <WorkIcon/>
+                                <Create className={classes.listIcon}/>
                             </Avatar>
                             <ListItemText primary="Registration"/>
                         </ListItem>
                         <ListItem button onClick={this.handleInvitedSpeakersNav}>
                             <Avatar>
-                                <WorkIcon/>
+                                <SupervisorAccount className={classes.listIcon}/>
                             </Avatar>
                             <ListItemText primary="Invited Speakers"/>
                         </ListItem>
@@ -316,9 +326,37 @@ class Layout extends React.Component {
                 </Drawer>
                 {this.props.children}
 
-                <Button className={classes.fab} variant="fab" color="secondary" >
-                    <EditIcon/>
-                </Button>
+
+                <div className={classes.footer}>
+                    <Grid container justify="center" alignItems="center"  spacing={40}>
+                        <Grid item>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                022 22620661
+                            </Typography>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                email@xaviers.edu
+                            </Typography>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                5, Mahapalika Marg
+                            </Typography>
+                            <Typography variant="title" gutterBottom color="secondary" align="center" >
+                                Mumbai, Maharasthra 400 001
+                            </Typography>
+                        </Grid>
+                        <Grid item>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                Monday:- 9:00 am to 3:30 pm
+                            </Typography>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                Saturday:- 9:00 am to 12:00 pm
+                            </Typography>
+                            <Typography variant="title" gutterBottom color="secondary" align="center">
+                                Closed on Sunday
+                            </Typography>
+                        </Grid>
+                    </Grid>
+                </div>
+
             </MuiThemeProvider>
         );
     }

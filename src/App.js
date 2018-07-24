@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import XaviersHome from "./containers/XavierHome/XaviersHome";
-import Layout from "./HOC/withLayout/Layout";
+import Layout from "./hoc/withLayout/Layout";
 import {BrowserRouter,Router,Route} from 'react-router-dom';
 import InvitedSpeakers from "./containers/InvitedSpeakers/InvitedSpeakers";
 import About from "./containers/About/About";
@@ -14,6 +14,8 @@ import Connect from "./containers/Connect/Connect";
 
 
 class App extends Component {
+
+
 
   render() {
     return (

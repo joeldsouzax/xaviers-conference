@@ -24,13 +24,17 @@ import Logos from "./Logos/Logos";
 
 const styles = theme => ({
 
-    root: {}
+    root: {
+        marginTop: 20,
+    }
 
 });
 
 
 const logoList = (props) => {
 
+
+    const {classes} = props;
 
     const logoList = props.institutions.map(institute => {
        return (
@@ -40,8 +44,10 @@ const logoList = (props) => {
        )
     });
 
+
+
     return (
-        <Grid container justify="center" alignContent="center" alignItems="center" spacing={16}>
+        <Grid container justify="center" alignContent="center" alignItems="center" spacing={8} className={classes.root}>
             {logoList}
         </Grid>
     );
